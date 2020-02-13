@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
       </section>
       <p>Built by
-        <a href="https://crollacreations.com" target="_blank" rel="noopener noreferrer">crollacreations</a>
+        <a href="https://www.yahoo.co.jp" target="_blank" rel="noopener noreferrer">Next Day!</a>
       </p>
     </footer>
   )

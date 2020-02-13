@@ -6,9 +6,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Cafe`,
-    description: `  `,
-    author: `Cristiano Crolla`,
+    title: `ああああGatsby`,
+    description: `あなたのために`,
+    author: `Mickey Mouse`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -34,13 +34,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: process.env.CONTENTFUL_SPACEID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-      },
-    },
     {
       resolve: `gatsby-source-instagram`,
       options: {
